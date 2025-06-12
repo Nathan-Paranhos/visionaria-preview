@@ -1,0 +1,486 @@
+PS C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria> npm run dev
+
+> visionaria-vistorias@0.0.0 dev
+> vite
+
+
+  VITE v5.4.19  ready in 417 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+00:34:46 [vite] Internal server error: Failed to resolve import "react-hook-form" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/src/App.tsx:4:39
+  19 |  import { Phone, Mail, MapPin, Send } from "lucide-react";
+  20 |  import { motion } from "framer-motion";
+  21 |  import { useForm } from "react-hook-form";
+     |                           ^
+  22 |  import { z } from "zod";
+  23 |  import { zodResolver } from "@hookform/resolvers/zod";
+      at TransformPluginContext._formatError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+00:34:46 [vite] Pre-transform error: Failed to resolve import "react-hook-form" from "src/App.tsx". Does the file exist?
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+00:36:31 [vite] page reload src/App.tsx
+00:36:32 [vite] Internal server error: Failed to resolve import "react-hook-form" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/src/App.tsx:4:39
+  19 |  import { Phone, Mail, MapPin, Send } from "lucide-react";
+  20 |  import { motion } from "framer-motion";
+  21 |  import { useForm } from "react-hook-form";
+     |                           ^
+  22 |  import { z } from "zod";
+  23 |  import { zodResolver } from "@hookform/resolvers/zod";
+      at TransformPluginContext._formatError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+00:36:32 [vite] Pre-transform error: Failed to resolve import "react-hook-form" from "src/App.tsx". Does the file exist?
+00:36:34 [vite] Internal server error: Failed to resolve import "react-hook-form" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/src/App.tsx:4:39
+  19 |  import { Phone, Mail, MapPin, Send } from "lucide-react";
+  20 |  import { motion } from "framer-motion";
+  21 |  import { useForm } from "react-hook-form";
+     |                           ^
+  22 |  import { z } from "zod";
+  23 |  import { zodResolver } from "@hookform/resolvers/zod";
+      at TransformPluginContext._formatError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+00:36:35 [vite] Internal server error: Failed to resolve import "react-hook-form" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/src/App.tsx:4:39
+  19 |  import { Phone, Mail, MapPin, Send } from "lucide-react";
+  20 |  import { motion } from "framer-motion";
+  21 |  import { useForm } from "react-hook-form";
+     |                           ^
+  22 |  import { z } from "zod";
+  23 |  import { zodResolver } from "@hookform/resolvers/zod";
+      at TransformPluginContext._formatError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24) (x2)
+00:37:23 [vite] page reload src/main.tsx
+00:37:24 [vite] Pre-transform error: Failed to resolve import "react-hook-form" from "src/App.tsx". Does the file exist?
+00:37:24 [vite] Pre-transform error: Failed to resolve import "react-hook-form" from "src/App.tsx". Does the file exist? (x2)
+00:37:24 [vite] Internal server error: Failed to resolve import "react-hook-form" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/src/App.tsx:4:39
+  19 |  import { Phone, Mail, MapPin, Send } from "lucide-react";
+  20 |  import { motion } from "framer-motion";
+  21 |  import { useForm } from "react-hook-form";
+     |                           ^
+  22 |  import { z } from "zod";
+  23 |  import { zodResolver } from "@hookform/resolvers/zod";
+      at TransformPluginContext._formatError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+00:37:24 [vite] page reload src/main.tsx
+00:37:25 [vite] Pre-transform error: Failed to resolve import "react-hook-form" from "src/App.tsx". Does the file exist?
+00:37:25 [vite] Internal server error: Failed to resolve import "react-hook-form" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/src/App.tsx:4:39
+  19 |  import { Phone, Mail, MapPin, Send } from "lucide-react";
+  20 |  import { motion } from "framer-motion";
+  21 |  import { useForm } from "react-hook-form";
+     |                           ^
+  22 |  import { z } from "zod";
+  23 |  import { zodResolver } from "@hookform/resolvers/zod";
+      at TransformPluginContext._formatError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+00:37:27 [vite] page reload src/main.tsx
+00:37:28 [vite] Pre-transform error: Failed to resolve import "react-hook-form" from "src/App.tsx". Does the file exist?
+00:37:28 [vite] Internal server error: Failed to resolve import "react-hook-form" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/src/App.tsx:4:39
+  19 |  import { Phone, Mail, MapPin, Send } from "lucide-react";
+  20 |  import { motion } from "framer-motion";
+  21 |  import { useForm } from "react-hook-form";
+     |                           ^
+  22 |  import { z } from "zod";
+  23 |  import { zodResolver } from "@hookform/resolvers/zod";
+      at TransformPluginContext._formatError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+Deseja finalizar o arquivo em lotes (S/N)? s
+PS C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria> npm install react-hook-form zod @hookform/resolvers framer-motion lucide-react leaflet
+
+added 43 packages, and audited 318 packages in 16s
+
+67 packages are looking for funding
+  run `npm fund` for details
+
+4 vulnerabilities (1 low, 3 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria> npm run dev                                                                       
+    
+> visionaria-vistorias@0.0.0 dev
+> vite
+
+Re-optimizing dependencies because lockfile has changed
+
+  VITE v5.4.19  ready in 1223 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+00:39:33 [vite] hmr update /src/App.tsx, /src/index.css
+00:39:33 [vite] Internal server error: C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\src\App.tsx: Identifier directly after number. (75:72)
+
+  73 |   useEffect(() => {
+  74 |     if (mapRef.current) {
+> 75 |       const map = L.map(mapRef.current).setView([-23.1865, -46.8978], 15ទ
+     |                                                                         ^
+  76 |
+  77 | System: 15); // Coordenadas aproximadas de Jundiaí, SP
+  78 |
+  Plugin: vite:react-babel
+  File: C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/src/App.tsx:75:72
+  73 |    useEffect(() => {
+  74 |      if (mapRef.current) {
+  75 |        const map = L.map(mapRef.current).setView([-23.1865, -46.8978], 15ទ
+     |                                                                          ^
+  76 |
+  77 |  System: 15); // Coordenadas aproximadas de Jundiaí, SP
+      at constructor (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:363:19)
+      at TypeScriptParserMixin.raise (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:6609:19)
+      at TypeScriptParserMixin.readNumber (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:6480:18)
+      at TypeScriptParserMixin.getTokenFromCode (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:6264:14)
+      at TypeScriptParserMixin.getTokenFromCode (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:4809:11)
+      at TypeScriptParserMixin.getTokenFromCode (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:9930:11)
+      at TypeScriptParserMixin.nextToken (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:5792:10)
+      at TypeScriptParserMixin.next (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:5702:10) 
+      at TypeScriptParserMixin.eat (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:5706:12)  
+      at TypeScriptParserMixin.expect (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:6909:15)
+      at TypeScriptParserMixin.parseCallExpressionArguments (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:11158:14)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:11101:29)
+      at TypeScriptParserMixin.parseSubscript (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:11035:19)
+      at TypeScriptParserMixin.parseSubscript (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:9283:18)
+      at TypeScriptParserMixin.parseSubscripts (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:11009:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:11000:17)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:10981:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:10961:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:9778:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:10814:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:10819:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:10796:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:10749:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:9727:20)
+      at C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:10718:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:12340:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:10718:17)
+      at TypeScriptParserMixin.parseVar (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:13276:91)
+      at TypeScriptParserMixin.parseVarStatement (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:13122:10)
+      at TypeScriptParserMixin.parseVarStatement (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:9423:31)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:12743:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:9453:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:12658:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:12638:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:13208:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:13201:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:13189:10)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:12750:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:9453:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:12658:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:12648:17)
+      at TypeScriptParserMixin.parseIfStatement (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:13022:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:12687:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:9453:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:12658:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:12638:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:13208:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:13201:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:13189:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\paran\OneDrive\Área de Trabalho\Filce C\visionaria\node_modules\@babel\parser\lib\index.js:12019:24)
+00:39:35 [vite] hmr update /src/App.tsx, /src/index.css
+00:39:35 [vite] hmr invalidate /src/App.tsx Could not Fast Refresh (new export)
+00:39:35 [vite] page reload src/App.tsx
+00:39:55 [vite] hmr update /src/App.tsx, /src/index.css
+00:39:56 [vite] ✨ new dependencies optimized: embla-carousel-react
+00:39:56 [vite] ✨ optimized dependencies changed. reloading
+00:43:03 [vite] hmr update /src/App.tsx, /src/index.css
+00:45:54 [vite] hmr update /src/App.tsx, /src/index.css (x2)
+00:46:25 [vite] page reload index.html
+00:46:26 [vite] Internal server error: Unable to parse HTML; parse5 error code invalid-first-character-of-tag-name
+ at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+10 |    <body>
+11 |      <div id="root"></div>
+12 |      <<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+   |       ^
+13 |      <script type="module" src="/src/main.tsx"></script>
+14 |    </body>
+   at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+      at handleParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35172:9)
+      at Parser.onParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35097:7)
+      at Tokenizer._err (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1155:89)
+      at Tokenizer._stateTagOpen (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1983:26)
+      at Tokenizer._callState (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1534:22)
+      at Tokenizer._runParsingLoop (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1179:22)
+      at Tokenizer.write (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1204:14)
+      at Parser.parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:4886:26)
+      at parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:7957:19)
+      at traverseHtml (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35092:15)
+      at async devHtmlHook (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62331:3)
+      at async applyHtmlTransforms (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35875:17)
+      at async viteIndexHtmlMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62480:20)
+00:46:26 [vite] page reload index.html
+00:46:27 [vite] Internal server error: Unable to parse HTML; parse5 error code invalid-first-character-of-tag-name
+ at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+10 |    <body>
+11 |      <div id="root"></div>
+12 |      <<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+   |       ^
+13 |      <script type="module" src="/src/main.tsx"></script>
+14 |    </body>
+   at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+      at handleParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35172:9)
+      at Parser.onParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35097:7)
+      at Tokenizer._err (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1155:89)
+      at Tokenizer._stateTagOpen (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1983:26)
+      at Tokenizer._callState (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1534:22)
+      at Tokenizer._runParsingLoop (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1179:22)
+      at Tokenizer.write (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1204:14)
+      at Parser.parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:4886:26)
+      at parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:7957:19)
+      at traverseHtml (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35092:15)
+      at async devHtmlHook (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62331:3)
+      at async applyHtmlTransforms (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35875:17)
+      at async viteIndexHtmlMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62480:20)
+00:46:30 [vite] Internal server error: Unable to parse HTML; parse5 error code invalid-first-character-of-tag-name
+ at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+10 |    <body>
+11 |      <div id="root"></div>
+12 |      <<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+   |       ^
+13 |      <script type="module" src="/src/main.tsx"></script>
+14 |    </body>
+   at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+      at handleParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35172:9)
+      at Parser.onParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35097:7)
+      at Tokenizer._err (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1155:89)
+      at Tokenizer._stateTagOpen (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1983:26)
+      at Tokenizer._callState (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1534:22)
+      at Tokenizer._runParsingLoop (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1179:22)
+      at Tokenizer.write (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1204:14)
+      at Parser.parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:4886:26)
+      at parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:7957:19)
+      at traverseHtml (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35092:15)
+      at async devHtmlHook (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62331:3)
+      at async applyHtmlTransforms (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35875:17)
+      at async viteIndexHtmlMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62480:20) (x2)
+00:46:36 [vite] page reload index.html
+00:46:37 [vite] Internal server error: Unable to parse HTML; parse5 error code invalid-first-character-of-tag-name
+ at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+10 |    <body>
+11 |      <div id="root"></div>
+12 |      <<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+   |       ^
+13 |      <script type="module" src="/src/main.tsx"></script>
+14 |    </body>
+   at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+      at handleParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35172:9)
+      at Parser.onParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35097:7)
+      at Tokenizer._err (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1155:89)
+      at Tokenizer._stateTagOpen (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1983:26)
+      at Tokenizer._callState (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1534:22)
+      at Tokenizer._runParsingLoop (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1179:22)
+      at Tokenizer.write (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1204:14)
+      at Parser.parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:4886:26)
+      at parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:7957:19)
+      at traverseHtml (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35092:15)
+      at async devHtmlHook (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62331:3)
+      at async applyHtmlTransforms (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35875:17)
+      at async viteIndexHtmlMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62480:20)
+00:46:42 [vite] page reload index.html
+00:46:42 [vite] Internal server error: Unable to parse HTML; parse5 error code invalid-first-character-of-tag-name
+ at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+10 |    <body>
+11 |      <div id="root"></div>
+12 |      <<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+   |       ^
+13 |      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+14 |      <script type="module" src="/src/main.tsx"></script>
+   at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+      at handleParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35172:9)
+      at Parser.onParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35097:7)
+      at Tokenizer._err (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1155:89)
+      at Tokenizer._stateTagOpen (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1983:26)
+      at Tokenizer._callState (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1534:22)
+      at Tokenizer._runParsingLoop (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1179:22)
+      at Tokenizer.write (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1204:14)
+      at Parser.parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:4886:26)
+      at parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:7957:19)
+      at traverseHtml (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35092:15)
+      at async devHtmlHook (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62331:3)
+      at async applyHtmlTransforms (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35875:17)
+      at async viteIndexHtmlMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62480:20)
+00:46:44 [vite] page reload index.html
+00:46:45 [vite] Internal server error: Unable to parse HTML; parse5 error code invalid-first-character-of-tag-name
+ at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+10 |    <body>
+11 |      <div id="root"></div>
+12 |      <<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+   |       ^
+13 |
+14 |      <script type="module" src="/src/main.tsx"></script>
+   at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+      at handleParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35172:9)
+      at Parser.onParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35097:7)
+      at Tokenizer._err (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1155:89)
+      at Tokenizer._stateTagOpen (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1983:26)
+      at Tokenizer._callState (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1534:22)
+      at Tokenizer._runParsingLoop (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1179:22)
+      at Tokenizer.write (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1204:14)
+      at Parser.parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:4886:26)
+      at parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:7957:19)
+      at traverseHtml (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35092:15)
+      at async devHtmlHook (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62331:3)
+      at async applyHtmlTransforms (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35875:17)
+      at async viteIndexHtmlMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62480:20)
+00:46:47 [vite] page reload index.html
+00:46:47 [vite] Internal server error: Unable to parse HTML; parse5 error code invalid-first-character-of-tag-name
+ at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+10 |    <body>
+11 |      <div id="root"></div>
+12 |      <<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+   |       ^
+13 |      <script type="module" src="/src/main.tsx"></script>
+14 |    </body>
+   at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+      at handleParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35172:9)
+      at Parser.onParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35097:7)
+      at Tokenizer._err (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1155:89)
+      at Tokenizer._stateTagOpen (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1983:26)
+      at Tokenizer._callState (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1534:22)
+      at Tokenizer._runParsingLoop (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1179:22)
+      at Tokenizer.write (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1204:14)
+      at Parser.parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:4886:26)
+      at parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:7957:19)
+      at traverseHtml (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35092:15)
+      at async devHtmlHook (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62331:3)
+      at async applyHtmlTransforms (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35875:17)
+      at async viteIndexHtmlMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62480:20)
+00:46:50 [vite] Internal server error: Unable to parse HTML; parse5 error code invalid-first-character-of-tag-name
+ at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+10 |    <body>
+11 |      <div id="root"></div>
+12 |      <<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+   |       ^
+13 |      <script type="module" src="/src/main.tsx"></script>
+14 |    </body>
+   at C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/index.html:12:6
+      at handleParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35172:9)
+      at Parser.onParseError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35097:7)
+      at Tokenizer._err (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1155:89)
+      at Tokenizer._stateTagOpen (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1983:26)
+      at Tokenizer._callState (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1534:22)
+      at Tokenizer._runParsingLoop (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1179:22)
+      at Tokenizer.write (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:1204:14)
+      at Parser.parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:4886:26)
+      at parse (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-D-7KCb9p.js:7957:19)
+      at traverseHtml (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35092:15)
+      at async devHtmlHook (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62331:3)
+      at async applyHtmlTransforms (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:35875:17)
+      at async viteIndexHtmlMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62480:20) (x2)
+00:46:56 [vite] page reload index.html
+00:47:11 [vite] page reload index.html (x2)
+00:58:16 [vite] hmr update /src/App.tsx, /src/index.css
+00:58:16 [vite] Internal server error: Failed to resolve import "./App.css" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/src/App.tsx:8:7
+  22 |  import { zodResolver } from "@hookform/resolvers/zod";
+  23 |  import { Button } from "@/components/ui/button.jsx";
+  24 |  import "./App.css";
+     |          ^
+  25 |  const Logo = ({ className }) => /* @__PURE__ */ jsxDEV("div", { className: `${className} flex items-center justify-center bg-secondary rounded-full`, children: /* @__PURE__ */ jsxDEV(Eye, { className: "w-24 h-24 text-white" }, void 0, false, {
+  26 |    fileName: "C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/src/App.tsx",
+      at TransformPluginContext._formatError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 9)
+      at async TransformPluginContext.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+00:58:19 [vite] Internal server error: Failed to resolve import "./App.css" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/src/App.tsx:8:7
+  22 |  import { zodResolver } from "@hookform/resolvers/zod";
+  23 |  import { Button } from "@/components/ui/button.jsx";
+  24 |  import "./App.css";
+     |          ^
+  25 |  const Logo = ({ className }) => /* @__PURE__ */ jsxDEV("div", { className: `${className} flex items-center justify-center bg-secondary rounded-full`, children: /* @__PURE__ */ jsxDEV(Eye, { className: "w-24 h-24 text-white" }, void 0, false, {
+  26 |    fileName: "C:/Users/paran/OneDrive/Área de Trabalho/Filce C/visionaria/src/App.tsx",
+      at TransformPluginContext._formatError (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 9)
+      at async TransformPluginContext.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/paran/OneDrive/%C3%81rea%20de%20Trabalho/Filce%20C/visionaria/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+00:58:19 [vite] Pre-transform error: Failed to resolve import "./App.css" from "src/App.tsx". Does the file exist?

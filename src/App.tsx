@@ -108,7 +108,7 @@ export default function App() {
       <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8, ease: 'easeOut' }} className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-secondary/20 via-transparent to-transparent" />
         <div className="container mx-auto px-4 text-center relative z-10">
-          <Logo className="w-64 h-64 mx-auto mb-8" />
+          <Logo src="/visio.png" className="w-64 h-64 mx-auto mb-8" />
           <motion.h1 className="text-4xl md:text-6xl font-bold mb-4" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>Visionária Vistorias</motion.h1>
           <motion.p className="text-white/80 text-xl md:text-2xl mb-8" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}>Tecnologia, precisão e agilidade em vistorias imobiliárias</motion.p>
           <Button href="#contato" className="text-lg">Solicite uma Demonstração</Button>

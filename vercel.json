@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "vite build",
+    "prebuild": "npm install -g vite && chmod +x $(npm bin)/vite || true"
+  }
+}

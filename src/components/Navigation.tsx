@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Logo } from './Logo';
 
 const navItems = [
   { href: '#inicio', label: 'Início' },
@@ -23,7 +24,15 @@ export function Navigation() {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <a href="#" className="text-white font-bold text-xl">Visionária</a>
+          <a href="#" className="flex items-center space-x-3" aria-label="Home">
+            <div className="h-14 w-14 flex-shrink-0">
+              <Logo className="h-full w-full" alt="Visionaria Logo" />
+            </div>
+            <div className="flex flex-col justify-center">
+              <div className="text-white text-lg font-bold leading-none tracking-wider">VISIONÁRIA</div>
+              <div className="text-white text-[10px] leading-none tracking-wider">ESPECIALISTA EM VISTORIAS</div>
+            </div>
+          </a>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">

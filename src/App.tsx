@@ -13,7 +13,7 @@ import { Carousel } from './components/Carousel';
 import { SectionWrapper } from './components/SectionWrapper';
 
 const historySlides = [
-  { year: 'Ago - 2024', title: 'O Início da Inovação', description: 'Tudo se inicia, um chefe e um colaborador se conhecem!' },
+  { year: 'Ago - 2024', title: 'O Início da Inovação', description: 'Tudo se inicia, um empresário e um colaborador se conhecem!' },
   { year: 'Nov - 2024', title: 'Grande amizade', description: 'A amizade é colocada a prova por tudo que a vida implicava e apresentava pra ambos' },
   { year: 'Jan - 2025', title: 'Confiança', description: 'Quando tudo ia contra ambos, contra a amizade o trabalho os números, um voto de confiança trouxe fé, e trouxe luz pros caminhos.' },
   { year: 'Mai - 2025', title: 'Aprendizado', description: 'Um curso em campinas é o divisor de água na vida de ambos, pra motivar, criar, conquistar tudo que ambos almejavam.' },
@@ -118,7 +118,7 @@ export default function App() {
       {/* Sobre */}
       <SectionWrapper id="sobre" title="Sobre a Visionária">
         <p className="text-lg text-center max-w-3xl mx-auto mb-4 text-white/80">A Visionária Vistorias nasceu da convergência de duas trajetórias distintas, unidas por propósitos sólidos e inegociáveis: fé, disciplina, integridade e espírito empreendedor.</p>
-        <p className="text-lg text-center max-w-3xl mx-auto text-white/80">Tudo começou quando um chefe e seu colaborador passaram a construir uma relação de confiança mútua. Com o tempo, a parceria profissional se transformou em amizade, e dessa conexão, surgiu o desejo de impactar positivamente o mercado de vistorias imobiliárias. Movidos pela visão estratégica da águia e pela força resiliente do lobo, deram início a um projeto ousado: criar uma empresa capaz de aliar inovação tecnológica, eficiência operacional e sensibilidade humana. Assim foi fundada a Visionária Vistorias, uma especialista em vistorias imobiliárias que oferece confiança, segurança e clareza em cada etapa da locação, do início ao fim. Somos Visionários por natureza. E seguimos sendo.</p>
+        <p className="text-lg text-center max-w-3xl mx-auto text-white/80">Tudo começou quando um empresário e seu colaborador passaram a construir uma relação de confiança mútua. Com o tempo, a parceria profissional se transformou em amizade, e dessa conexão, surgiu o desejo de impactar positivamente o mercado de vistorias imobiliárias. Movidos pela visão estratégica da águia e pela força resiliente do lobo, deram início a um projeto ousado: criar uma empresa capaz de aliar inovação tecnológica, eficiência operacional e sensibilidade humana. Assim foi fundada a Visionária Vistorias, uma especialista em vistorias imobiliárias que oferece confiança, segurança e clareza em cada etapa da locação, do início ao fim. Somos Visionários por natureza. E seguimos sendo.</p>
       </SectionWrapper>
 
       {/* História */}
@@ -431,4 +431,3 @@ export default function App() {
       </div>
     );
   }
-

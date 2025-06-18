@@ -111,7 +111,7 @@ export default function App() {
           <Logo src="/visio.png" className="w-64 h-64 mx-auto mb-8" />
           <motion.h1 className="text-4xl md:text-6xl font-bold mb-4" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>Visionária Vistorias</motion.h1>
           <motion.p className="text-white/80 text-xl md:text-2xl mb-8" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}>Tecnologia, precisão e agilidade em vistorias imobiliárias</motion.p>
-          <Button href="#contato" className="text-lg">Solicite uma Demonstração</Button>
+          <Button href="https://wa.me/5511995641753" className="text-lg">Solicite uma Demonstração</Button>
         </div>
       </section>
 
